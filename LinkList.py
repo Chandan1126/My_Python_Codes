@@ -8,11 +8,20 @@ class Node(object):
     def __init__(self):
         # define the fields 
         data = None
-        left = None
         right = None
     def set_data(self,data):
         self.data = data
-    def get_left(self):
-        return self.left
-    def get_right(self):
-        return self.right
+    def get_next(self):
+        return self.right 
+    def set_next(self,node):
+        self.right =  node
+    
+
+class LinkList(object):
+    
+
+def main():
+    
+
+if __name__ == '__main__':
+    main()
